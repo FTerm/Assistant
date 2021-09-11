@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/main/learn/learn",
+    "pages/main/books/books",
+    "pages/main/keywords/keywords",
+    "pages/profile/profile",
+    "pages/user/profile/profile",
+    "pages/user/collect/collect",
+    "pages/user/plan/plan",
+    "pages/user/feedback/feedback",
+    "pages/user/set/set"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fee45c",
+    "navigationBarTitleText": "小雅单词",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath" : "pages/index/index",
+        "text": "主页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home.png"
+      },
+      {
+        "pagePath" : "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "images/user.png",
+        "selectedIconPath": "images/user.png"
+      }
+    ],
+    "selectedColor": "#fee45c"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

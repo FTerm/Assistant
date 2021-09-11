@@ -1,0 +1,43 @@
+<!--index.wxml-->
+<view>
+
+  <view class="header">
+    <view class="h1">为了更好的使用，请登录先哦～</view>
+  </view>
+  <view class="learntable">
+    <view class="table_contain">
+      <view class="todolist">今日任务</view>
+      <view class="flex_align">需要学习单词0个</view>
+      <view class="flex_align">无复习任务</view>
+    </view>
+    <button class="start" bindtap="start">开始学习</button>
+  </view>
+
+  <view class="flex_learn">
+    <view class="flex_align">
+      <view>已学天数</view>
+      <text class="learn_text">0</text>
+    </view>
+    <view class="flex_align">
+      <view>连续打卡</view>
+      <text class="learn_text">0</text>
+    </view>
+    <view class="flex_align">
+      <view>剩余天数</view>
+      <text class="learn_text">0</text>
+    </view>
+  </view>
+
+
+  <view class="todotable">
+    <view class="toptitle">已完成任务</view>
+    <view class="hr"></view>
+    <view class="list">第一天学习要加油哦～</view>
+  </view>
+  <view class="environment" bindtap="onChangeShowEnvChoose">当前环境 {{ selectedEnv.alias }}</view>
+
+  <cloud-tip-modal showUploadTipProps="{{showUploadTip}}"></cloud-tip-modal>
+
+
+
+</view>
