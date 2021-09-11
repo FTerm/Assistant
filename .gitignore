@@ -1,0 +1,8 @@
+# 忽略
+
+miniprogram_npm
+/cloudfunctions/
+*.log
+.git
+.env
+.DS_Store
